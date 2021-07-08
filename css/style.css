@@ -54,7 +54,62 @@ header {
     
 }
 .content p {
-    padding: 15px;
+    font-size: 22px;
+    padding: 45px;
+}
+.content h3 {
+    padding-left: 45px;
+    padding-top: 45px;
+    font-size: 30px;
+}
+
+.content .interestImages {
+    padding: 100px;
+    column-count: 3;
+}
+
+.content .interestImages a img {
+    
+    margin-bottom: 25px;
+    border-color: burlywood;
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+.content .contactForm{
+    padding-left: 45px;
+    width: 300px;
+}
+
+input[type=text] {
+    width: 150px;;
+    margin-left: 10px;
+}
+
+input[type=email] {
+    width: 150px;;
+    margin-left: 39px;
+}
+textarea[id=message] {
+    width: 152px;;
+    margin-left: 22px;
+}
+label[for=message]{
+    margin-top: -10px;
+}
+input[type=submit] {
+    width: 150px;;
+    background-color: burlywood;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #c94c04;
 }
 
 .copyright-text{
