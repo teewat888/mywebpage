@@ -6,14 +6,25 @@ body {
     height: 850px;
     margin: auto;
     overflow: hidden;
+    background-image: url("../images/bg.png");
 }
 nav ul li{
-    list-style-type: none;;
+    padding-top:50px;
+    padding-left:20px;
+    font-size: 30px;
+    list-style-type: none;
+    writing-mode: vertical-rl;
 }
+
 
 nav ul li a{
     text-decoration: none;
     color: #ffffff;
+    
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #c1e6f7;
     
 }
 header {
@@ -24,7 +35,7 @@ header {
 .leftnav{
     margin-top: 8px;
     width:300px;
-    /*float:left;*/
+   
     height:850px;
     position: fixed;
     overflow: hidden;
@@ -38,9 +49,12 @@ header {
     color: #ffffff;
     width: 1200px;
     height: 100%;
-    /*float:right;*/
+    
     margin-left: 300px;
     
+}
+.content p {
+    padding: 15px;
 }
 
 .copyright-text{
@@ -48,11 +62,12 @@ header {
     width: 300px;
     position: absolute;
     top: 800px;
-    left: 1320px;
+    left: 1280px;
    
     color: #ffffff;
     
 }
 footer a{
     text-decoration: none;
+    color: #ffffff;
 }
