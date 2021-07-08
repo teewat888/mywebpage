@@ -2,6 +2,57 @@ body {
  box-sizing: border-box;  
 }
 #main {
-    width: 900px;
+    width: 1500px;
+    height: 850px;
     margin: auto;
+    overflow: hidden;
+}
+nav ul li{
+    list-style-type: none;;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+header {
+    width: 300px;
+    height:850px;
+
+}
+.leftnav{
+    margin-top: 8px;
+    width:300px;
+    /*float:left;*/
+    height:850px;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    background: #292f38;
+    
+
+}
+.content{
+    background: #585b44;
+    color: #ffffff;
+    width: 1200px;
+    height: 100%;
+    /*float:right;*/
+    margin-left: 300px;
+    
+}
+
+.copyright-text{
+    text-align: right;
+    width: 300px;
+    position: absolute;
+    top: 800px;
+    left: 1320px;
+   
+    color: #ffffff;
+    
+}
+footer a{
+    text-decoration: none;
 }
